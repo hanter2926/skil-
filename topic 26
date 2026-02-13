@@ -1,0 +1,87 @@
+What Happens Here?
+->External CSS says → red
+->Internal CSS says → green
+->Inline CSS says → gray
+
+Final Output Color → gray
+Because Inline has the highest priority.
+
+
+Task Day 5
+
+Learn About Flexbox
+
+
+
+
+DAY 6 – FLEXBOX 
+What is Flexbox?
+📌 Definition
+-> Flexbox (Flexible Box Layout) is a CSS layout system
+   used to arrange elements in rows or columns.
+-> It makes alignment and spacing easier.
+
+
+🔹 Important Rules of Flexbox
+1. Flexbox works on the parent element.
+2. We apply: display: flex; to the parent.
+3. By default, flex-direction is row.
+
+
+Basic Flexbox Example (Column Layout)
+Parent = div
+
+
+Children = p tags
+
+
+display: flex applied to div
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flexbox Example</title>
+
+  <style>
+    /* Styling child boxes */
+    p {
+      color: whitesmoke;
+      background-color: black;
+      height: 200px;
+      width: 200px;
+      font-size: 20px;
+      text-align: center;
+      border-radius: 16px;
+    }
+
+    /* Parent container */
+    div {
+      display: flex;
+
+      /* Default is row */
+      flex-direction: column;
+
+      /* Align items vertically (cross-axis) */
+      align-items: center;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div>
+    <p>First</p>
+    <p>Second</p>
+    <p>Third</p>
+    <p>Fourth</p>
+  </div>
+
+</body>
+</html>
+
+
