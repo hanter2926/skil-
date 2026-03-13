@@ -1,0 +1,2232 @@
+✅ Day 1 – HTML Basics 
+<!doctype html>
+<!-- 
+DOCTYPE tells the browser that this document follows HTML5 standard.
+It helps the browser render the page correctly.
+-->
+
+<html lang="en">
+<!-- 
+<html> is the root element of the HTML document.
+lang="en" specifies the language as English (useful for SEO & accessibility).
+-->
+
+  <head>
+    <!-- 
+    <head> contains meta information (data about data).
+    This part is not visible on the webpage.
+    -->
+
+    <meta charset="UTF-8" />
+    <!-- 
+    charset="UTF-8" supports all characters (letters, symbols, emojis, etc.).
+    -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 
+    viewport makes the website responsive on mobile & different screen sizes.
+    -->
+
+    <title>First html class</title>
+    <!-- 
+    <title> sets the page title shown in the browser tab.
+    -->
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+    <!-- 
+    favicon is the small icon shown in the browser tab.
+    -->
+  </head>
+
+  <body>
+    <!-- 
+    <body> contains all the visible content of the webpage.
+    -->
+
+    <h1>this is Rudra</h1>
+    <h2>this is Rudra</h2>
+    <h3>this is Rudra</h3>
+    <h4>this is Rudra</h4>
+    <h5>this is Rudra</h5>
+    <h6>this is Rudra</h6>
+    <!-- 
+    h1 to h6 are heading tags.
+    h1 is the biggest heading, h6 is the smallest.
+    -->
+
+    <p>this is just like normal text</p>
+    <!-- 
+    <p> is used for paragraphs / normal text.
+    -->
+
+    <strong><p>thisissss</p></strong>
+    <!-- 
+    <strong> makes text bold and also gives importance (SEO friendly).
+    -->
+
+    <rohit>this is Rohit</rohit>
+    <SHarikkkk>safdj;lkfsdahfdskja</SHarikkkk>
+    <!-- 
+    These are custom/unknown tags.
+    Browser ignores them but still displays the text.
+    Not recommended for real projects.
+    -->
+
+  </body>
+</html>
+
+
+
+
+✅ Day 1 – HTML Lists (Code 2)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- 
+  Head section basics already explained above, so skipped here.
+  -->
+
+  <title>List Tutorial</title>
+</head>
+
+<body>
+
+  <h1>this is List tutorial</h1>
+  <!-- 
+  Heading usage already covered in previous code.
+  -->
+
+  <!-- 
+  HTML has two main types of lists:
+  1. Ordered List (ol)
+  2. Unordered List (ul)
+  -->
+
+  <ol>
+    <!-- 
+    <ol> creates a numbered list.
+    -->
+    <li>Onion</li>
+    <li>Potato</li>
+    <li>Tomato</li>
+    <!-- 
+    <li> represents a single list item.
+    -->
+  </ol>
+
+  <ul>
+    <!-- 
+    <ul> creates a bullet-point list.
+    -->
+    <li>Onion</li>
+    <li>Potato</li>
+    <li>Tomato</li>
+  </ul>
+
+</body>
+</html>
+
+
+
+✅ Day 1 – Nested Lists (Code 3)
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Nested List</title>
+</head>
+
+<body>
+
+  <!-- 
+  Nested list means a list inside another list.
+  Used for categories and sub-categories.
+  -->
+
+  <ul>
+    <li>
+      Fruits
+      <!-- Parent list item -->
+
+      <ul>
+        <!-- Child list -->
+        <li>Orange</li>
+        <li>Guava</li>
+        <li>Apple</li>
+        <li>Grapes</li>
+      </ul>
+    </li>
+
+    <li>
+      Vegetables
+
+      <ul>
+        <li>Potato</li>
+        <li>Tomato</li>
+        <li>Cabbage</li>
+      </ul>
+    </li>
+  </ul>
+
+</body>
+</html>
+
+
+
+
+
+
+✅ Day 2 – HTML Table & Tasks (Code 1)
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- charset & viewport already explained in Day 1 -->
+  <title>Basic Table</title>
+</head>
+
+<body>
+
+  <h1>This is basic table</h1>
+
+  <ujwal>this is Ujwal</ujwal>
+  <!-- 
+  This is a custom / unknown tag.
+  HTML allows it, but it has no meaning.
+  Used only for learning, not real projects.
+  -->
+
+  <table border="1">
+    <!-- 
+    <table> creates a table structure.
+    border="1" is an attribute used to show table borders.
+    -->
+
+    <thead>
+      <!-- 
+      <thead> groups table heading rows.
+      Helps browser understand table structure.
+      -->
+
+      <tr>
+        <!-- <tr> defines one row in a table -->
+
+        <th>Name</th>
+        <th>Roll</th>
+        <th>City</th>
+        <!-- 
+        <th> is table heading cell.
+        It is bold and centered by default.
+        -->
+      </tr>
+    </thead>
+
+    <tbody>
+      <!-- 
+      <tbody> contains actual table data.
+      -->
+
+      <tr>
+        <td>Rohan</td>
+        <td>111</td>
+        <td>Mohali</td>
+        <!-- 
+        <td> is table data cell (normal text).
+        -->
+      </tr>
+
+      <tr>
+        <td>Rohit</td>
+        <td>222</td>
+        <td>Pune</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+</body>
+</html>
+
+
+TASKS FOR PRACTICE -->
+Explore list types (ordered & unordered)
+Explore at least 30 HTML tags
+Create a table with your friends’ names
+
+✅ Day 2 – Image + Concepts (Code 2)
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Second Class</title>
+</head>
+
+<body>
+
+  <h1>this is heading</h1>
+  <p>this is normal text</p>
+
+  <ul>
+    <!-- 
+    Unordered list usage revised here.
+    -->
+    <li>guava</li>
+    <li>mango</li>
+    <li>orange</li>
+  </ul>
+
+  <img src="./images/favicon.png" alt="site icon" />
+  <!-- 
+  <img> is a self-closing tag.
+  src = image location
+  alt = alternative text if image fails to load
+  -->
+
+  <p>this is your second class</p>
+
+</body>
+</html>
+
+
+
+1️⃣ HTML TAG
+A tag tells the browser what to do with content.
+Example: <p>, <table>, <img>
+
+2️⃣ HTML ELEMENT
+Everything from opening tag to closing tag.
+Example: <p>Hello</p>
+
+3️⃣ HTML ATTRIBUTE
+Extra information written inside the opening tag.
+Example: src, alt, border, href
+
+
+✅ Day 3 – HTML Forms (Complete Notes)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+    <!-- 
+    <title> sets the browser tab name.
+    -->
+</head>
+
+<body>
+
+<h2>Student Information Form</h2>
+<!-- 
+<h2> used as form heading.
+-->
+
+<form>
+    <!-- 
+    <form> is used to collect user input.
+    All form controls must be inside this tag.
+    -->
+
+    <label>Name:</label>
+    <!-- 
+    <label> gives a title to the input field.
+    Improves readability & accessibility.
+    -->
+    <input type="text" placeholder="Enter Your Name">
+    <!-- 
+    type="text" is used for normal text input.
+    placeholder shows hint text inside input box.
+    -->
+    <br>
+
+    <label>Email:</label>
+    <input type="email" placeholder="1234@gmail.com">
+    <!-- 
+    type="email" validates email format automatically.
+    -->
+    <br>
+
+    <label>Mobile No:</label>
+    <input type="number" placeholder="Enter Your Mobile No">
+    <!-- 
+    type="number" allows only numeric values.
+    -->
+    <br>
+
+    <label>Address</label>
+    <textarea rows="3" cols="30"></textarea>
+    <!-- 
+    <textarea> is used for multi-line input.
+    rows & cols define size of the textarea.
+    -->
+    <br>
+
+    <label>Date Of Birth</label>
+    <input type="date">
+    <!-- 
+    type="date" shows date picker.
+    -->
+    <br><br>
+
+    <label>Gender</label>
+    <br>
+
+    <input type="radio" name="Gender">
+    <label>Male</label>
+    <br>
+
+    <input type="radio" name="Gender">
+    <label>Female</label>
+    <br>
+
+    <input type="radio" name="Gender">
+    <label>Other</label>
+    <!-- 
+    type="radio" allows single selection.
+    Same name attribute groups radio buttons.
+    -->
+    <br>
+
+    <label>Select Your Country</label>
+    <select name="Country">
+        <!-- 
+        <select> creates a dropdown list.
+        -->
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="Pak">Pakistan</option>
+        <option value="Russia">Russia</option>
+        <option value="Spain">Spain</option>
+        <option value="Japan">Japan</option>
+        <option value="Korea">Korea</option>
+        <option value="Germany">Germany</option>
+        <!-- 
+        <option> defines items inside dropdown.
+        -->
+    </select>
+    <br><br>
+
+    <label>Upload Documents</label>
+    <input type="file">
+    <!-- 
+    type="file" is used to upload files.
+    -->
+    <br>
+
+    <input type="checkbox">
+    <label>I agree all the terms and conditions</label>
+    <!-- 
+    checkbox is used for agreement or multiple selection.
+    -->
+    <br>
+
+    <button>Submit</button>
+    <!-- 
+    <button> submits the form.
+    -->
+
+</form>
+
+</body>
+</html>
+
+<!-- 
+
+
+
+
+
+Task Day 3
+
+Create an employee registration form using html only.
+
+
+
+
+
+
+
+
+
+📘 DAY 4 – Website Structure & CSS 
+Website Structure Using Semantic Tags
+📌 Concept
+A basic website is divided into three main sections:
+Navbar
+Main / Hero Section
+Footer
+
+
+These sections are created using semantic HTML tags.
+
+✅ Code: Website Structure
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+</head>
+<body>
+
+    <nav>
+        <!-- Navigation bar -->
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Main / Hero section -->
+        <h1>This is main section</h1>
+        <h1>This is hero section</h1>
+    </main>
+
+    <footer>
+        <!-- Footer section -->
+        <ul>
+            <li>Our Mission</li>
+            <li>Our Vision</li>
+            <li>Privacy Policy</li>
+        </ul>
+    </footer>
+
+    <ujwal>
+        this is ujwal
+    </ujwal>
+    <!-- Custom tag (non-semantic) -->
+
+</body>
+</html>
+
+
+
+
+Semantic vs Non-Semantic Tags
+📘 Definitions
+Semantic Tags:
+Tags that have their own meaning.
+They clearly describe their purpose.
+
+Examples:
+nav, main, footer, header, section, article
+
+Non-Semantic Tags:
+Tags that do not describe their purpose.
+
+Examples:
+div, span, p, custom tags
+
+
+
+
+
+
+
+-> Block vs Inline Elements
+📘 Definitions
+Block Elements:
+Start on a new line
+Take full width of the page
+
+Examples:
+h1-h6, p, div, nav, footer
+
+Inline Elements:
+Do not start on a new line
+Take only required width
+
+Examples:
+span, a, img, input
+
+✅ Code Example
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Block vs Inline</title>
+</head>
+<body>
+
+    <h1 style="background-color: green;">
+        This is a block element
+    </h1>
+
+    <p>This is simple text</p>
+
+    <span style="background-color: aquamarine;">
+        This is inline element
+    </span>
+
+    <span>This is second inline element</span>
+
+    <a href="https://www.flipkart.com">Flipkart</a>
+    <a href="https://www.flipkart.com">Another link</a>
+
+    <img src="./images/favicon.png" alt="icon">
+
+</body>
+</html>
+
+
+
+-> What is CSS?
+📘 Definition
+CSS (Cascading Style Sheets) is used to style
+and design HTML elements.
+It controls color, layout, fonts, and spacing.
+
+
+-> Types of CSS
+There are three ways to apply CSS:
+1. Inline CSS
+2. Internal CSS
+3. External CSS
+
+
+Inline CSS
+📘 Definition
+Inline CSS is written directly inside the HTML tag
+using the style attribute.
+
+✅ Code
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inline CSS</title>
+</head>
+<body>
+
+    <h1 style="color: olive;">
+        This is Inline CSS
+    </h1>
+
+</body>
+</html>
+
+
+
+
+📌 Notes
+✔ Applied to a single element
+❌ Not reusable
+❌ Not used in large projects
+
+Internal CSS
+📘 Definition
+Internal CSS is written inside the <style> tag
+within the <head> section.
+
+✅ Code
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internal CSS</title>
+
+    <style>
+        h1 {
+            color: gray;
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is Internal CSS</h1>
+</body>
+</html>
+
+
+
+🔹 STEP 8: External CSS
+📘 Definition
+External CSS is written in a separate .css file
+and linked with HTML using the <link> tag.
+
+📄 external.css
+h1 {
+    color: gray;
+    background-color: whitesmoke;
+}
+
+
+📄 file.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>External CSS</title>
+    <link rel="stylesheet" href="./external.css">
+</head>
+
+<body>
+    <h1>This is External CSS</h1>
+</body>
+</html>
+
+
+
+
+Both File external.css and file.html Are Linked with the help of  <link> Tag
+<link rel="stylesheet" href="./external.css">
+
+
+
+
+
+
+DAY 5 
+🔹 What is Class in HTML?
+-> Class is used to apply the same CSS style
+to multiple elements.
+
+-> In CSS we use "." (dot) before class name.
+
+Example:
+.first_class { }
+
+
+🔹 What is ID in HTML?
+-> ID is used to apply CSS to a unique element.
+
+-> In CSS we use "#" before ID name.
+
+Example:
+#second_class_id { }
+
+📌 Code
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Class & ID</title>
+
+  <style>
+    /* Element Selector */
+    h1 {
+      background-color: black;
+      color: whitesmoke;
+    }
+
+    /* Styling all <p> elements */
+    p {
+      background-color: green;
+      color: whitesmoke;
+      height: 200px;
+      width: 400px;
+      text-align: center;
+      border: 5px solid maroon;
+      border-radius: 10px;
+      font-size: 24px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Class Selector */
+    .first_class {
+      color: maroon;
+      background-color: yellowgreen;
+    }
+
+    /* ID Selector */
+    #second_class_id {
+      color: whitesmoke;
+      background-color: black;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <center>
+    <h1>This is first CSS class</h1>
+  </center>
+
+  <p class="first_class">
+    This is our first surprise box
+  </p>
+
+  <p id="second_class_id">
+    This is our second surprise box
+  </p>
+
+  <p>This is our third surprise box</p>
+  <p>This is our fourth surprise box</p>
+
+</body>
+</html>
+
+
+
+✅ Priority Order (Highest to Lowest)
+1. Inline CSS  (Highest priority)
+2. Internal CSS
+3. External CSS (Lowest priority)
+
+
+
+📄 priority.css (External CSS)
+h1 {
+  color: red;
+}
+
+
+
+📄 HTML File
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Priority</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="./priority.css">
+
+  <!-- Internal CSS -->
+  <style>
+    h1 {
+      color: green;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Inline CSS -->
+  <h1 style="color: gray;">
+    This is CSS priority comparison class
+  </h1>
+
+</body>
+</html>
+
+
+
+What Happens Here?
+->External CSS says → red
+->Internal CSS says → green
+->Inline CSS says → gray
+
+Final Output Color → gray
+Because Inline has the highest priority.
+
+
+Task Day 5
+
+Learn About Flexbox
+
+
+
+
+DAY 6 – FLEXBOX 
+What is Flexbox?
+📌 Definition
+-> Flexbox (Flexible Box Layout) is a CSS layout system
+   used to arrange elements in rows or columns.
+-> It makes alignment and spacing easier.
+
+
+🔹 Important Rules of Flexbox
+1. Flexbox works on the parent element.
+2. We apply: display: flex; to the parent.
+3. By default, flex-direction is row.
+
+
+Basic Flexbox Example (Column Layout)
+Parent = div
+
+
+Children = p tags
+
+
+display: flex applied to div
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flexbox Example</title>
+
+  <style>
+    /* Styling child boxes */
+    p {
+      color: whitesmoke;
+      background-color: black;
+      height: 200px;
+      width: 200px;
+      font-size: 20px;
+      text-align: center;
+      border-radius: 16px;
+    }
+
+    /* Parent container */
+    div {
+      display: flex;
+
+      /* Default is row */
+      flex-direction: column;
+
+      /* Align items vertically (cross-axis) */
+      align-items: center;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div>
+    <p>First</p>
+    <p>Second</p>
+    <p>Third</p>
+    <p>Fourth</p>
+  </div>
+
+</body>
+</html>
+
+
+
+🔹 Flexbox Axes Understanding
+Main Axis:
+→ Controlled by flex-direction
+→ If row → X-axis
+→ If column → Y-axis
+
+Cross Axis:
+→ Opposite direction of main axis
+
+
+🔹 justify-content
+-> Used to align items on the MAIN axis.
+
+Examples:
+justify-content: start;
+justify-content: center;
+justify-content: end;
+justify-content: space-between;
+justify-content: space-around;
+justify-content: space-evenly;
+
+
+
+🔹 align-items
+-> Used to align items on the CROSS axis.
+
+Examples:
+align-items: start;
+align-items: center;
+align-items: end;
+
+
+
+Real Example – Flexbox Navbar
+Now we apply flexbox in real layout (Navigation Bar).
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flex Navbar</title>
+
+  <style>
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    img {
+      height: 100px;
+      width: 100px;
+    }
+
+    ul {
+      display: flex;
+      gap: 30px;
+    }
+
+    ul li {
+      list-style: none;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: gray;
+    }
+
+    button {
+      height: 50px;
+      width: 100px;
+      background-color: orangered;
+      color: whitesmoke;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="">
+      <img src="../images/favicon.png" alt="logo">
+    </a>
+
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Contact</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Privacy Policy</a></li>
+    </ul>
+
+    <button>Login</button>
+  </nav>
+
+</body>
+</html>
+
+
+
+
+
+Margin:-
+A margin is the transparent area around an HTML element, outside of its border. It does not have a background color and is used to create spacing between elements.
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    div {
+      background-color: green;
+      color: whitesmoke; /* text color */
+      height: 200px;
+      width: 400px;
+      text-align: center;
+      border: 5px solid maroon;
+      border-radius: 10px;
+      font-size: 24px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 500px;
+      margin-top: 200px;
+    }
+  </style>
+
+  <body>
+    <h1>this is BoxModel</h1>
+    <p style="font-weight: bolder">this is Rudra</p>
+
+    <div>
+      <p>this is box</p>
+    </div>
+
+  </body>
+</html>
+
+
+
+
+
+Padding:-
+In web design, padding refers to the space between an element’s content and its border.and is used to create inner spacing
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    div {
+      display: flex;
+      flex-direction: column;
+      border: 4px solid green;
+      padding: 40px;
+      height: 350px;                     
+      width: 300px;
+      background-color: gainsboro;
+      border-radius: 16px;
+    }
+
+    img {
+      height: 120px;
+      width: 120px;
+      /* margin-left: 100px; */
+    }
+
+    p {
+      font-size: 18px;
+    }
+  </style>
+
+  <body>
+    <div>
+      <img src="../images/favicon.png" alt="" />
+      <h3>Rahul Sharma</h3>
+      <p>
+        I am very satisfied with the service provided. The team was
+        professional, responsive, and guided me properly throughout the entire
+        process. Everything was smooth and transparent
+      </p>
+      <p>Address: Andheri East, Mumbai, Maharashtra - 400069</p>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+Syllabus Discussion :-  
+
+
+
+
+1.⁠ ⁠Core Python                (  star pattern , nested loop ) 
+2.⁠ ⁠OOPS 
+3.⁠ ⁠Database ( MySQL & PostgreSQL OR PGadmin )
+=> how to create a table , 
+=> how to insert data in a table . 
+=> how to delete any row from a table. 
+=> how to update any data in a table.
+......................  
+
+=> DML, DDL , Primary key , candidate key , Foreign 
+
+
+4.⁠ ⁠Frontend 
+=> html , css 
+=> 8 Assignments 
+
+5.⁠ ⁠Bootstrap ( Css library ) 
+=> it's the combination html and css.
+
+6.⁠ ⁠javascript 
+7.⁠ ⁠React ( javascript library ) 
+
+
+## Backend
+=> Django ( Python Framework )
+=> how to setup a basic project in Django 
+=> how to connect frontend and backend . 
+=> how to coneect frontend , backend with database ( PostgreSQL ) 
+=> crate a CRUD operation project 
+=> CRUD ( create , read, update, Delete) 
+
+=> HOw to create admin Panel
+=> how to create superuser ( owner /admin/ superuser ) . 
+
+=>get method, post method, put method, patch methd, delete
+
+=> 6 Projects 
+
+
+=> APi 
+=> how to create api , read api , update api , delete api . 
+=> what is Swagger api .
+=> what is postman api .
+
+=> get method => data show 
+=> post method => data store 
+=> put => update, 
+=> patch => Partially updated
+
+
+Fast API ( python Library ) 
+
+## Database ( Tenants ):- Multitenancy concept 
+
+## Seeder run ( Sample data for database)
+## Crone Jobs 
+## send email message on Gmail application (SMTP)
+## 2 Step veryfication
+## how to integrate razorpay payment integration and stripe integration.
+## Resume Building Session.
+
+
+
+
+
+
+
+
+DAY 7 
+
+Flexbox
+📌 Important Rule
+display: flex;
+→ It decides how to align content.
+→ It always works on the parent element.
+
+
+Clean Navbar Code (Improved)
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day 7</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      background-color: gainsboro;
+    }
+
+    ul {
+      display: flex;
+      gap: 30px;
+    }
+
+    ul li {
+      list-style: none;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    img {
+      height: 40px;
+      width: 50px;
+    }
+
+    button {
+      background: orangered;
+      color: whitesmoke;
+      border: none;
+      height: 35px;
+      width: 70px;
+      font-weight: bold;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: black;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="#"><img src="../images/favicon.png" alt="logo" /></a>
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="./contact.html" target="_blank">Contact Us</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+
+    <div>
+      <button>Login</button>
+      <button>Logout</button>
+    </div>
+  </nav>
+
+  <a href="https://docs.google.com" target="_blank">
+    Go to Home Page
+  </a>
+
+</body>
+</html>
+
+
+target="_blank"
+DefinitionF
+target="_blank"
+→ Opens the link in a new tab.
+
+CODE OF target="_blank"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Target Blank Example</title>
+</head>
+<body>
+
+    <h1>target="_blank" Example</h1>
+
+    <!-- Normal Link (opens in same tab) -->
+    <a href="https://www.google.com">
+        Open Google (Same Tab)
+    </a>
+
+    <br><br>
+
+    <!-- Link with target="_blank" -->
+    <a href="https://www.google.com" target="_blank">
+        Open Google (New Tab)
+    </a>
+
+</body>
+</html>
+
+Ctrl + D (VS Code Shortcut)
+Ctrl + D
+→ Selects the next matching word.
+→ Useful for editing multiple same words quickly.
+
+
+CSS Box Model
+Every HTML element follows the Box Model.
+
+📌 Box Model Structure
+1. Content
+2. Padding
+3. Border
+4. Margin
+
+
+📘 Definition
+Margin:
+Space outside the border.
+
+Padding:
+Space inside the border (around content).
+
+Border:
+Outline around the element.
+
+
+🔹 Box Model Code
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Box Model</title>
+
+  <style>
+    div {
+      background-color: lightblue;
+      padding: 20px;
+      border: 5px solid blue;
+      margin: 40px;
+      width: 200px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div>
+    This is Box Model Example
+  </div>
+
+</body>
+</html>
+
+
+
+Background Color & Background Image
+
+Background Color CSS
+body {
+  background-color: lightgray;
+}
+
+
+
+✅ Background Image CSS
+body {
+  background-image: url("image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+DAY 8 
+What is a Pseudo-Class?
+Definition
+A pseudo-class is used to define a special state of an element.
+
+Example:
+:hover
+:nth-child()
+
+:hover and :nth-child()
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <title>Pseudo Class Example</title>
+
+ <style>
+   p {
+     border: 2px solid maroon;
+     height: 200px;
+     width: 200px;
+     text-align: center;
+     background-color: black;
+     color: whitesmoke;
+     font-size: 20px;
+   }
+
+   /* Hover effect */
+   p:hover {
+     background-color: yellow;
+     color: maroon;
+   }
+
+   /* Select third child */
+   p:nth-child(3) {
+     background-color: goldenrod;
+     color: black;
+   }
+
+   /* First child hover */
+   p:nth-child(1):hover {
+     background-color: green;
+   }
+
+ </style>
+</head>
+
+<body>
+ <p>First box</p>
+ <p>Second box</p>
+ <p>Third box</p>
+ <p>Fourth box</p>
+ <p>Fifth box</p>
+</body>
+</html>
+
+
+What is a Pseudo-Element?
+Definition
+Pseudo-elements are used to style specific parts of an element.
+
+Example:
+::before
+::after
+
+::before
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pseudo Element</title>
+
+  <style>
+    /* Before text */
+    p::before {
+      content: "👉 ";
+      color: red;
+      font-weight: bold;
+    }
+
+    /* After text */
+    p::after {
+      content: " 👈";
+      color: blue;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <p>Hello World</p>
+</body>
+</html>
+
+
+
+
+What is Position in CSS?
+Definition
+The position property specifies how an element
+is positioned in a webpage.
+
+Types of Position
+1. static  (Default)
+2. relative
+3. absolute
+4. fixed
+5. Sticky
+
+
+
+
+
+position: static (Default)
+Definition
+-> Static is the default position.
+->Elements follow normal document flow.
+->Top, left, right, bottom do NOT work.
+Example
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box {
+ position: static;
+ background: lightblue;
+ top: 50px; /* This will NOT work */
+}
+</style>
+</head>
+<body>
+
+<div class="box">Static Box</div>
+
+</body>
+</html>
+
+📌 It behaves normally. No movement.
+
+position: relative
+Definition
+-> Moves element relative to its original position.
+-> Top, left, right, bottom WILL work.
+-> Space remains reserved.
+
+Example
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box {
+ position: relative;
+ left: 50px;
+ top: 20px;
+ background: lightgreen;
+}
+</style>
+</head>
+<body>
+
+<div class="box">Relative Box</div>
+
+</body>
+</html>
+
+📌 It shifts from original position but keeps its space.
+
+position: absolute
+Definition
+-> Moves element relative to nearest positioned parent.
+-> If no positioned parent, it uses body.
+-> Space is NOT reserved.
+Example
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.parent {
+ position: relative;
+ height: 200px;
+ border: 2px solid black;
+}
+
+.child {
+ position: absolute;
+ top: 20px;
+ right: 20px;
+ background: orange;
+}
+</style>
+</head>
+<body>
+
+<div class="parent">
+ <div class="child">Absolute Box</div>
+</div>
+
+</body>
+</html>
+
+📌 It removes element from normal flow.
+
+position: fixed
+Definition
+-> Element stays fixed on screen.
+-> It does NOT move when scrolling.
+Example
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box {
+ position: fixed;
+ bottom: 20px;
+ right: 20px;
+ background: red;
+ color: white;
+ padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="box">Fixed Button</div>
+
+<p style="height:2000px;">Scroll down to see effect</p>
+
+</body>
+</html>
+
+📌 It stays at same position while scrolling.
+
+position: sticky
+Definition
+-> Acts like relative until a scroll limit is reached.
+-> Then it becomes fixed.
+Example
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.header {
+ position: sticky;
+ top: 0;
+ background: yellow;
+ padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">Sticky Header</div>
+
+<p style="height:2000px;">
+Scroll down to see sticky effect.
+</p>
+
+</body>
+</html>
+
+📌 It sticks to top when scrolling.
+
+Quick Comparison Table
+Position
+Moves?
+Space Reserved?
+Scroll Behavior
+static
+❌ No
+✅ Yes
+Normal
+relative
+✅ Yes
+✅ Yes
+Normal
+absolute
+✅ Yes
+❌ No
+Normal
+fixed
+✅ Yes
+❌ No
+Fixed on screen
+sticky
+✅ Yes
+✅ Yes
+Sticks on scroll
+
+
+
+
+DAY 9
+What is z-index?
+Definition
+ → z-index controls the stacking order of elements.
+ → Higher z-index value appears on top.
+ → Lower value appears behind.
+Important Rule:
+z-index works only on positioned elements.
+(position: relative, absolute, fixed, sticky)
+It does NOT work with: position: static;
+Example of z-index
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Z-Index Example</title>
+
+ <style>
+   .box1 {
+     height: 200px;
+     width: 300px;
+     background-color: red;
+     position: absolute;
+     left: 100px;
+     top: 100px;
+     z-index: 1;
+   }
+
+   .box2 {
+     height: 200px;
+     width: 300px;
+     background-color: blue;
+     position: absolute;
+     left: 150px;
+     top: 150px;
+     z-index: 2;
+   }
+ </style>
+</head>
+
+<body>
+
+ <div class="box1"></div>
+ <div class="box2"></div>
+
+</body>
+</html>
+
+What Happens Here?
+→ Blue box has z-index: 2
+→ Red box has z-index: 1
+→ Blue appears on top
+Because 2 > 1
+
+Important Rule
+Higher z-index → Comes Forward
+Lower z-index → Goes Back
+
+Real Example (Image Overlap Card)
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Image Overlay</title>
+
+ <style>
+   .card {
+     position: relative;
+     width: 400px;
+     height: 300px;
+   }
+
+   img:nth-child(1) {
+     height: 200px;
+     width: 300px;
+     position: absolute;
+     left: 50px;
+     top: 50px;
+     z-index: 1;
+     border-radius: 10px;
+   }
+
+   img:nth-child(2) {
+     height: 150px;
+     width: 250px;
+     position: absolute;
+     left: 100px;
+     top: 80px;
+     z-index: 2;
+     border-radius: 10px;
+   }
+ </style>
+</head>
+
+<body>
+
+ <div class="card">
+   <img src="./images/car-2.jpeg" alt="">
+   <img src="./images/car.jpeg" alt="">
+   <h2>Car</h2>
+   <p>This is car</p>
+ </div>
+
+</body>
+</html>
+
+
+When Scroll Happens
+Now connecting with previous topic:
+Fixed vs Sticky while scrolling
+position: fixed
+→ Always stays in same position
+→ Does NOT move while scrolling
+position: sticky
+→ Acts like relative
+→ When scroll reaches top value → becomes fixed
+
+
+
+Difference: Relative vs Sticky
+Relative:
+ → Always moves from original position
+ → Does not react to scroll
+Sticky:
+ → Acts normal initially
+ → Sticks when scroll limit reached
+ → Requires top, bottom, etc.
+
+
+DAY 10 Media Query & CSS Grid
+Topics Covered:
+Media Query
+display: grid
+Media Query
+Definition
+-> A Media Query is used to make a website responsive.
+ It applies CSS rules based on screen size or device type.
+It is mainly used for mobile-friendly design.
+
+Basic Syntax
+@media (max-width: 600px) {
+ /* CSS rules here */
+}
+
+Meaning:
+If the screen width is 600px or less, apply these styles.
+Example
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+   p {
+     background-color: black;
+     color: white;
+   }
+
+   @media (max-width: 600px) {
+     p {
+       background-color: green;
+     }
+   }
+ </style>
+</head>
+<body>
+
+ <p>Responsive Text</p>
+
+</body>
+</html>
+
+Normal screen → Black
+Small screen → Green
+
+display: grid
+Definition
+CSS Grid is a two-dimensional layout system.
+ It allows you to arrange elements in rows and columns.
+Grid works on the parent element.
+How to Activate Grid
+.container {
+ display: grid;
+}
+
+
+Defining Columns
+Fixed Width Columns
+grid-template-columns: 200px 200px 200px;
+
+Creates three columns with fixed width.
+
+Using Fraction (fr)
+grid-template-columns: 1fr 2fr 1fr;
+
+fr means “fraction of available space”.
+2fr takes more space than 1fr.
+
+Using repeat()
+grid-template-columns: repeat(4, 1fr);
+
+Creates four equal columns.
+
+Complete Grid Example
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+   .container {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 10px;
+   }
+
+   .box {
+     background-color: black;
+     color: white;
+     padding: 20px;
+     text-align: center;
+   }
+ </style>
+</head>
+<body>
+
+ <div class="container">
+   <div class="box">1</div>
+   <div class="box">2</div>
+   <div class="box">3</div>
+   <div class="box">4</div>
+ </div>
+
+</body>
+</html>
+
+
+
+
+
+TASK
+
+
+Explore Media Query and display grid
+Make 1 Project Using Media Query and display grid
+
+
+DAY 11
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+
+    <!-- cdn link  →
+
+
+    <link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <style>
+    p {
+      height: 200px;
+      border: 10px solid black;
+      background-color: gray;
+    }
+  </style>
+
+  <body>
+    <h1>
+      Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello,
+      world!
+    </h1>
+
+    <p>this is my container</p>
+
+    <button>Submit</button>
+
+    <button class="btn btn-success">Green button</button>
+    <button class="btn btn-danger">Red button</button>
+    <button class="btn btn-secondary">Gray color button</button>
+    <button class="btn btn-dark">Dark button</button>
+    <button class="btn btn-warning">YEllow button</button>
+    <button class="btn btn-info">info button</button>
+    <button class="btn btn-light">info button</button>
+
+    <br />
+    <br />
+    <br />
+
+    <button class="btn btn-outline-primary">Submit</button>
+    <button class="btn btn-outline-success">Green button</button>
+    <button class="btn btn-outline-danger">Red button</button>
+    <button class="btn btn-outline-secondary">Gray color button</button>
+    <button class="btn btn-outline-dark">Dark button</button>
+    <button class="btn btn-outline-warning">YEllow button</button>
+
+    <br />
+    <br />
+    <br />
+
+    <button class="btn btn-lg btn-danger">info button</button>
+    <button class="btn btn-md btn-danger">info button</button>
+    <button class="btn btn-sm btn-danger">info button</button>
+
+  </body>
+</html>
+
+
+
+
+
+DAY 12  Bootstrap basic
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"/>
+  </head>
+  <body>
+    <h1>Registration form !</h1>
+
+    <div class="card p-5 bg-secondary">
+      <form action="">
+
+        <label for="" class="form-label">Name</label>
+        
+        <input type="text" name="name" id="" class="form-control" />
+
+        <label for="" class="form-label">Email</label>
+        <input type="email" name="email" id="" class="form-control" />
+
+        <label for="">Mobile Number</label>
+        <input type="number" name="mobile" id="" class="form-control" />
+
+        <label for="" class="form-label">D.O.B</label>
+        <input type="date" name="dob" id="" class="form-control" />
+
+        <label for="">Gender: </label>
+        <br />
+
+        <input type="radio" name="gender" />
+        <label for="">Male</label>
+
+        <input type="radio" name="gender" />
+        <label for="">Female</label>
+
+        <input type="radio" name="gender" />
+        <label for="">Other</label>
+
+        <br />
+        <label for="" class="form-label">Upload Your Document : </label>
+        <input type="file" name="document" id="" class="form-control" />
+
+        <center><button class="btn btn-primary">Submit</button></center>
+      </form>
+    </div>
+  </body>
+</html>
+
+<!-- in input tag , name attribute (name="") is used for backend purpose  -->
+
+
+
+
+DAY 13
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <h1>this is our table</h1>
+
+    <table class="table table-danger table-bordered table-hover">
+      <thead class="table-dark">
+        <tr>
+          <th >#</th>
+          <th >First</th>
+          <th >Last</th>
+          <th >Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th >1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th >2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th >3</th>
+          <td>John</td>
+          <td>Doe</td>
+          <td>@social</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+
+
+
+
+
+DAY 14
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <style>
+    #table-hoverr tbody tr:hover td,
+    #table-hoverr tbody tr:hover th {
+      background-color: greenyellow;
+    }
+  </style>
+
+  <body>
+    <h1>this is our table</h1>
+
+    <table class="table table-danger table-bordered " id="table-hoverr">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>First</th>
+          <th>Last</th>
+          <th>Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>John</td>
+          <td>Doe</td>
+          <td>@social</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+
+<!-- 
+ul li a img{
+
+}
+
+
+.first_img , .second_img {
+                    height = 200px
+                    weight = 200px
+} -->
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <h1>this is our table</h1>
+    <!-- <a href="./2.html">seocnd table</a> -->
+    <div>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="./2.html">Second Page</a></li>
+        <li class="breadcrumb-item active">Current Page</li>
+      </ol>
+    </div>
+
+    <table class="table table-danger table-bordered table-hover">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>First</th>
+          <th>Last</th>
+          <th>Handle</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+          <td class="badge text-bg-success">Active</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+          <td class="badge text-bg-danger">Inactive</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>John</td>
+          <td>Doe</td>
+          <td>@social</td>
+          <td class="badge text-bg-info">In Process</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+
+
+
+
+
+
+
