@@ -1,0 +1,62 @@
+Definition
+CSS Grid is a two-dimensional layout system.
+ It allows you to arrange elements in rows and columns.
+Grid works on the parent element.
+How to Activate Grid
+.container {
+ display: grid;
+}
+
+
+Defining Columns
+Fixed Width Columns
+grid-template-columns: 200px 200px 200px;
+
+Creates three columns with fixed width.
+
+Using Fraction (fr)
+grid-template-columns: 1fr 2fr 1fr;
+
+fr means “fraction of available space”.
+2fr takes more space than 1fr.
+
+Using repeat()
+grid-template-columns: repeat(4, 1fr);
+
+Creates four equal columns.
+
+Complete Grid Example
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+   .container {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 10px;
+   }
+
+   .box {
+     background-color: black;
+     color: white;
+     padding: 20px;
+     text-align: center;
+   }
+ </style>
+</head>
+<body>
+
+ <div class="container">
+   <div class="box">1</div>
+   <div class="box">2</div>
+   <div class="box">3</div>
+   <div class="box">4</div>
+ </div>
+
+</body>
+</html>
+
+
+
+
+
