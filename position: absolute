@@ -1,0 +1,33 @@
+Definition
+-> Moves element relative to nearest positioned parent.
+-> If no positioned parent, it uses the body.
+-> Space is NOT reserved.
+Example
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.parent {
+ position: relative;
+ height: 200px;
+ border: 2px solid black;
+}
+
+.child {
+ position: absolute;
+ top: 20px;
+ right: 20px;
+ background: orange;
+}
+</style>
+</head>
+<body>
+
+<div class="parent">
+ <div class="child">Absolute Box</div>
+</div>
+
+</body>
+</html>
+
+📌 It removes element from normal flow.
