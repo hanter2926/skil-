@@ -1,0 +1,41 @@
+Definition
+The position property specifies how an element
+is positioned in a webpage.
+
+Types of Position
+1. static  (Default)
+2. relative
+3. absolute
+4. fixed
+5. Sticky
+
+
+
+
+
+position: static (Default)
+Definition
+-> Static is the default position.
+->Elements follow normal document flow.
+->Top, left, right, bottom do NOT work.
+Example
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box {
+ position: static;
+ background: lightblue;
+ top: 50px; /* This will NOT work */
+}
+</style>
+</head>
+<body>
+
+<div class="box">Static Box</div>
+
+</body>
+</html>
+
+📌 It behaves normally. No movement.
+
