@@ -1,0 +1,20 @@
+Now connecting with previous topic:
+Fixed vs Sticky while scrolling
+position: fixed
+→ Always stays in same position
+→ Does NOT move while scrolling
+position: sticky
+→ Acts like relative
+→ When scroll reaches top value → becomes fixed
+
+
+
+Difference: Relative vs Sticky
+Relative:
+ → Always moves from original position
+ → Does not react to scroll
+Sticky:
+ → Acts normal initially
+ → Sticks when scroll limit reached
+ → Requires top, bottom, etc.
+
