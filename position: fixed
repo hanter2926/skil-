@@ -1,0 +1,29 @@
+Definition
+-> Element stays fixed on screen.
+-> It does NOT move when scrolling.
+Example
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box {
+ position: fixed;
+ bottom: 20px;
+ right: 20px;
+ background: red;
+ color: white;
+ padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="box">Fixed Button</div>
+
+<p style="height:2000px;">Scroll down to see effect</p>
+
+</body>
+</html>
+
+📌 It stays at same position while scrolling.
+
