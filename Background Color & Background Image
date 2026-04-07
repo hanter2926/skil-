@@ -1,0 +1,14 @@
+Background Color CSS
+body {
+  background-color: lightgray;
+}
+
+
+
+✅ Background Image CSS
+body {
+  background-image: url("image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
